@@ -8,17 +8,10 @@ services:
     volumes:
       - '.:/app'
     environment:
-      - SYMFONY_PROJECT_NAME=WEB_ECOMMERCE_2019
-      - MARIADB_PORT_NUMBER=3306
-      - MARIADB_USER=root
-      - MARIADB_PASSWORD=root
-      - MARIADB_DATABASE=training
+      - SYMFONY_PROJECT_NAME=backend
     depends_on:
       - mariadb
   mariadb:
     image: 'bitnami/mariadb:10.3'
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
-      - MARIADB_USER=root
-      - MARIADB_PASSWORD=root
-      - MARIADB_DATABASE=myapp
