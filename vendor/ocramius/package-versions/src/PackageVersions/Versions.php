@@ -81,7 +81,9 @@ final class Versions
   'twig/twig' => 'v2.12.5@18772e0190734944277ee97a02a9a6c6555fcd94',
   'webmozart/assert' => '1.7.0@aed98a490f9a8f78468232db345ab9cf606cf598',
   'willdurand/negotiation' => 'v2.3.1@03436ededa67c6e83b9b12defac15384cb399dc9',
-  '__root__' => 'dev-master@5fef7665a507437142a62833c162e17d8449b844',
+  'nikic/php-parser' => 'v4.3.0@9a9981c347c5c49d6dfe5cf826bb882b824080dc',
+  'symfony/maker-bundle' => 'v1.14.3@c864e7f9b8d1e1f5f60acc3beda11299f637aded',
+  '__root__' => 'dev-master@eb38fa4d972b2a848c7ed406ddf87968f2abfc39',
 );
 
     private function __construct()
