@@ -1,2 +1,5 @@
 {
+    "require": {
+        "api-platform/api-platform": "^2.1"
+    }
 }
