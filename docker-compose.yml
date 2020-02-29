@@ -9,6 +9,9 @@ services:
       - '.:/app'
     environment:
       - SYMFONY_PROJECT_NAME=backend
+      - MARIADB_PORT_NUMBER=3306
+      - MARIADB_USER=root
+    container_name: symfony_container
     depends_on:
       - mariadb
   mariadb:
@@ -17,3 +20,5 @@ services:
       - '3306:3306'
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
+      - MARIADB_USER=root
+    container_name: mariadb_container
