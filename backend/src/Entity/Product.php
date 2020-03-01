@@ -6,7 +6,12 @@ use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ApiResource()
+ * @ApiResource(
+ *      attributes={
+ *          "normalization_context"={"groups"={"product.read"}},
+ *          "denormalization_context"={"groups"={"product.write"}}
+ *     },
+ * )
  * @ORM\Entity(repositoryClass="App\Repository\ProductRepository")
  */
 class Product
@@ -31,7 +36,7 @@ class Product
     /**
      * @ORM\Column(type="text", nullable=true)
      */
-    private $listing_picture;
+    private $listing�Picture;
 
     public function getId(): ?int
     {
@@ -62,14 +67,14 @@ class Product
         return $this;
     }
 
-    public function getListingPicture(): ?string
+    public function getListing�Picture(): ?string
     {
-        return $this->listing_picture;
+        return $this->listing�Picture;
     }
 
-    public function setListingPicture(?string $listing_picture): self
+    public function setListing�Picture(?string $listing�Picture): self
     {
-        $this->listing_picture = $listing_picture;
+        $this->listing�Picture = $listing�Picture;
 
         return $this;
     }
