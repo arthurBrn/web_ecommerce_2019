@@ -20,6 +20,8 @@ services:
     image: 'bitnami/mariadb:10.3'
     ports:
       - '3306:3306'
+    volumes:
+    - '/bitnami/mariadb/:/var/lib/mysql'
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
       - MARIADB_DATABASE=test
