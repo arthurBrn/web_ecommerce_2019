@@ -9,7 +9,7 @@ services:
     environment:
       - SYMFONY_PROJECT_NAME=backend
       - MARIADB_HOST=mariadb
-      - MARIADB_PORT_NUMBER=3306
+      - MARIADB_PORT_NUMBER=3306 
       - MARIADB_USER=monty
       - MARIADB_PASSWORD=monty
       - MARIADB_DATABASE=test
@@ -21,10 +21,10 @@ services:
     ports:
       - '3306:3306'
     volumes:
-    - '/bitnami/mariadb/:/var/lib/mysql'
+      - '/var/lib/mysql/:/bitnami/mariadb/data'
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
-      - MARIADB_DATABASE=test
+      - MARIADB_DATABASE=ecommerce_db
       - MARIADB_PORT_NUMBER=3306
       - MARIADB_ROOT_USER=root
       - MARIADB_USER=monty
