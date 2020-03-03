@@ -9,11 +9,27 @@ services:
       - '.:/app'
     environment:
       - SYMFONY_PROJECT_NAME=backend
+      - MARIADB_HOST=mariadb
+      - MARIADB_PORT_NUMBER=3306
+      - MARIADB_USER=monty
+      - MARIADB_PASSWORD=monty
+      - MARIADB_DATABASE=ecommerce_db
+    user: '1000'
+    container_name: symfony_container
     depends_on:
       - mariadb
   mariadb:
     image: 'bitnami/mariadb:10.3'
     ports:
       - '3306:3306'
+    volumes:
+      - ./data:/bitnami/mariadb:rw
     environment:
       - ALLOW_EMPTY_PASSWORD=yes
+      - MARIADB_DATABASE=ecommerce_db
+      - MARIADB_PORT_NUMBER=3306
+      - MARIADB_ROOT_USER=root
+      - MARIADB_USER=monty
+      - MARIADB_PASSWORD=monty
+    user: '1000'
+    container_name: mariadb
