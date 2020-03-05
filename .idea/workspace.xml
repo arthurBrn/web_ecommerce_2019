@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <updated>1583061422195</updated>
       <workItem from="1583061433256" duration="626000" />
       <workItem from="1583079939273" duration="2856000" />
-      <workItem from="1583397370820" duration="1778000" />
+      <workItem from="1583397370820" duration="3950000" />
     </task>
     <servers />
   </component>
@@ -59,9 +56,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583084303622">
+    <state x="624" y="256" key="run.anything.popup" timestamp="1583401977243">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583084303622" />
+    <state x="624" y="256" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583401977243" />
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583401080523">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583401080523" />
   </component>
 </project>
