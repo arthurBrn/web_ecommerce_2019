@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200229212223.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200301163654.php" beforeDir="false" />
-    </list>
+    <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +45,7 @@
       <updated>1583061422195</updated>
       <workItem from="1583061433256" duration="626000" />
       <workItem from="1583079939273" duration="2856000" />
+      <workItem from="1583397370820" duration="233000" />
     </task>
     <servers />
   </component>
