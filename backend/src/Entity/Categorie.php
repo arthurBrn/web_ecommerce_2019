@@ -30,9 +30,15 @@ class Categorie
      */
     private $products;
 
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\SubCategorie", mappedBy="categorie")
+     */
+    private $subCategorie;
+
     public function __construct()
     {
         $this->products = new ArrayCollection();
+        $this->subCategorie = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -77,6 +83,37 @@ class Categorie
             // set the owning side to null (unless already changed)
             if ($product->getCategorie() === $this) {
                 $product->setCategorie(null);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|SubCategorie[]
+     */
+    public function getSubCategorie(): Collection
+    {
+        return $this->subCategorie;
+    }
+
+    public function addSubCategorie(SubCategorie $subCategorie): self
+    {
+        if (!$this->subCategorie->contains($subCategorie)) {
+            $this->subCategorie[] = $subCategorie;
+            $subCategorie->setCategorie($this);
+        }
+
+        return $this;
+    }
+
+    public function removeSubCategorie(SubCategorie $subCategorie): self
+    {
+        if ($this->subCategorie->contains($subCategorie)) {
+            $this->subCategorie->removeElement($subCategorie);
+            // set the owning side to null (unless already changed)
+            if ($subCategorie->getCategorie() === $this) {
+                $subCategorie->setCategorie(null);
             }
         }
 
