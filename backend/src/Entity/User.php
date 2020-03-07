@@ -64,6 +64,11 @@ class User implements UserInterface
      */
     private $cart;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Order", inversedBy="users")
+     */
+    private $orders;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -210,6 +215,18 @@ class User implements UserInterface
     public function setCart(?Cart $cart): self
     {
         $this->cart = $cart;
+
+        return $this;
+    }
+
+    public function getOrders(): ?Order
+    {
+        return $this->orders;
+    }
+
+    public function setOrders(?Order $orders): self
+    {
+        $this->orders = $orders;
 
         return $this;
     }
