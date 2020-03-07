@@ -30,3 +30,9 @@
 ### GITLAB
 
 ### TESTS 
+
+8 tranches jambon blanc
+rosette 
+bacon
+chorizo en tranche
+viande de grizon ou jambon de bayone

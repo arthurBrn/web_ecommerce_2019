@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Characteristic.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Characteristic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/aria_log.00000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/aria_log_control" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/mysql/column_stats.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/column_stats.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/mysql/columns_priv.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/columns_priv.MYI" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/mysql/columns_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/columns_priv.frm" afterDir="false" />
@@ -36,8 +40,6 @@
       <change beforePath="$PROJECT_DIR$/../data/data/mysql/tables_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/tables_priv.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/mysql/user.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/user.MYI" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/mysql/user.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/user.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/MCD_ecommerce_V1.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/MCD_ecommerce_V1.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/MCD_ecommerce_V1.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/MCD_ecommerce_V1.mwb.bak" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +87,7 @@
       <workItem from="1583397370820" duration="3950000" />
       <workItem from="1583403986105" duration="1080000" />
       <workItem from="1583484083381" duration="985000" />
+      <workItem from="1583575331209" duration="1014000" />
     </task>
     <servers />
   </component>
@@ -96,9 +99,9 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="624" y="256" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583401977243" />
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583484221816">
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583575853924">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583484221816" />
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583575853924" />
   </component>
 </project>

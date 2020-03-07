@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -42,6 +44,16 @@ class Characteristic
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $color;
+
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Product", mappedBy="characteristic")
+     */
+    private $products;
+
+    public function __construct()
+    {
+        $this->products = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -104,6 +116,37 @@ class Characteristic
     public function setColor(?string $color): self
     {
         $this->color = $color;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Product[]
+     */
+    public function getProducts(): Collection
+    {
+        return $this->products;
+    }
+
+    public function addProduct(Product $product): self
+    {
+        if (!$this->products->contains($product)) {
+            $this->products[] = $product;
+            $product->setCharacteristic($this);
+        }
+
+        return $this;
+    }
+
+    public function removeProduct(Product $product): self
+    {
+        if ($this->products->contains($product)) {
+            $this->products->removeElement($product);
+            // set the owning side to null (unless already changed)
+            if ($product->getCharacteristic() === $this) {
+                $product->setCharacteristic(null);
+            }
+        }
 
         return $this;
     }
