@@ -1,5 +1,4 @@
 version: '2'
-
 services:
   myapp:
     image: 'bitnami/symfony:1'
@@ -10,11 +9,11 @@ services:
     environment:
       - SYMFONY_PROJECT_NAME=backend
       - MARIADB_HOST=mariadb
-      - MARIADB_PORT_NUMBER=3306
+      - MARIADB_PORT_NUMBER=3306 
       - MARIADB_USER=monty
       - MARIADB_PASSWORD=monty
       - MARIADB_DATABASE=ecommerce_db
-    user: '1000'
+    user: "1000"
     container_name: symfony_container
     depends_on:
       - mariadb
@@ -31,5 +30,5 @@ services:
       - MARIADB_ROOT_USER=root
       - MARIADB_USER=monty
       - MARIADB_PASSWORD=monty
-    user: '1000'
+    user: "1000"
     container_name: mariadb

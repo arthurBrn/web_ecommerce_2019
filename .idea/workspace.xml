@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200229212223.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200301163654.php" beforeDir="false" />
-    </list>
+    <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +45,10 @@
       <updated>1583061422195</updated>
       <workItem from="1583061433256" duration="626000" />
       <workItem from="1583079939273" duration="2856000" />
+      <workItem from="1583397370820" duration="3950000" />
+      <workItem from="1583403986105" duration="1080000" />
+      <workItem from="1583484083381" duration="985000" />
+      <workItem from="1583575331209" duration="2172000" />
     </task>
     <servers />
   </component>
@@ -56,9 +56,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583084303622">
+    <state x="624" y="256" key="run.anything.popup" timestamp="1583401977243">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583084303622" />
+    <state x="624" y="256" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583401977243" />
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583575853924">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583575853924" />
   </component>
 </project>
