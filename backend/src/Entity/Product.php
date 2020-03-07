@@ -44,12 +44,6 @@ class Product
      */
     private $characteristic;
 
-    /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\characteristic", inversedBy="products")
-     * @ORM\JoinColumn(nullable=false)
-     */
-    private $characteristic;
-
     public function getId(): ?int
     {
         return $this->id;
@@ -87,18 +81,6 @@ class Product
     public function setListing�Picture(?string $listingPicture): self
     {
         $this->listingPicture = $listingPicture;
-
-        return $this;
-    }
-
-    public function getCharacteristic(): ?characteristic
-    {
-        return $this->characteristic;
-    }
-
-    public function setCharacteristic(?characteristic $characteristic): self
-    {
-        $this->characteristic = $characteristic;
 
         return $this;
     }
