@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,8 @@
       <workItem from="1583397370820" duration="3950000" />
       <workItem from="1583403986105" duration="1080000" />
       <workItem from="1583484083381" duration="985000" />
-      <workItem from="1583575331209" duration="6019000" />
+      <workItem from="1583575331209" duration="6645000" />
+      <workItem from="1583591983345" duration="2707000" />
     </task>
     <servers />
   </component>

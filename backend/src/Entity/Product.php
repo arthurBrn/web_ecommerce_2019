@@ -97,12 +97,12 @@ class Product
         return $this;
     }
 
-    public function getListing�Picture(): ?string
+    public function getListingPicture(): ?string
     {
         return $this->listingPicture;
     }
 
-    public function setListing�Picture(?string $listingPicture): self
+    public function setListingPicture(?string $listingPicture): self
     {
         $this->listingPicture = $listingPicture;
 
