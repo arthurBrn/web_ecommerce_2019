@@ -36,7 +36,13 @@ class Product
     /**
      * @ORM\Column(type="text", nullable=true)
      */
-    private $listing�Picture;
+    private $listingPicture;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\characteristic", inversedBy="products")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $characteristic;
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\characteristic", inversedBy="products")
@@ -75,12 +81,24 @@ class Product
 
     public function getListing�Picture(): ?string
     {
-        return $this->listing�Picture;
+        return $this->listingPicture;
     }
 
-    public function setListing�Picture(?string $listing�Picture): self
+    public function setListing�Picture(?string $listingPicture): self
     {
-        $this->listing�Picture = $listing�Picture;
+        $this->listingPicture = $listingPicture;
+
+        return $this;
+    }
+
+    public function getCharacteristic(): ?characteristic
+    {
+        return $this->characteristic;
+    }
+
+    public function setCharacteristic(?characteristic $characteristic): self
+    {
+        $this->characteristic = $characteristic;
 
         return $this;
     }
