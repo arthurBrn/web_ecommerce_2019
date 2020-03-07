@@ -58,6 +58,12 @@ class User implements UserInterface
      */
     private $deliveryAddress;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Cart", inversedBy="users")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $cart;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -192,6 +198,18 @@ class User implements UserInterface
     public function setDeliveryAddress(string $deliveryAddress): self
     {
         $this->deliveryAddress = $deliveryAddress;
+
+        return $this;
+    }
+
+    public function getCart(): ?Cart
+    {
+        return $this->cart;
+    }
+
+    public function setCart(?Cart $cart): self
+    {
+        $this->cart = $cart;
 
         return $this;
     }
