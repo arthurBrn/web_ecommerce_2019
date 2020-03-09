@@ -11,7 +11,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Faker\Factory;
 
 
-class AppFixtures extends Fixture
+class LoadSubCategorieFixtures extends Fixture
 {
     /**
      * @inheritDoc
