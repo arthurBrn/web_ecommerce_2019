@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/AbstractFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/CategorieFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/ProductFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/SubCategorieFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/Service/FakerService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/AppFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/LoadCategoriesFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/LoadCharacteristicFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/LoadOrderFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/LoadProductFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/LoadSubCategorieFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/LoadUserFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/OrderFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/ProductFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/SubCategorieFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/SubCategoriesFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/SubCategorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/SubCategorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/user.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/user.ibd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +63,7 @@
       <workItem from="1583774773407" duration="1612000" />
       <workItem from="1583785527566" duration="5131000" />
       <workItem from="1583791358653" duration="1491000" />
-      <workItem from="1583793004603" duration="1115000" />
+      <workItem from="1583793004603" duration="2543000" />
     </task>
     <servers />
   </component>
@@ -98,9 +87,9 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="624" y="256" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583786725660" />
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583791180103">
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583795226226">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583791180103" />
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583795226226" />
   </component>
 </project>

@@ -13,7 +13,6 @@ class SubCategorie
 {
     /**
      * @ORM\Id()
-     * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      */
     private $id;
@@ -32,6 +31,11 @@ class SubCategorie
     public function getId(): ?int
     {
         return $this->id;
+    }
+
+    public function setId(int $value)
+    {
+        $this->id = $value;
     }
 
     public function getName(): ?string
