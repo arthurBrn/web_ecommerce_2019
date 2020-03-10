@@ -22,6 +22,7 @@ class Product
 {
     /**
      * @ORM\Id()
+     * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      */
     private $id;
@@ -42,24 +43,24 @@ class Product
     private $listingPicture;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\characteristic", inversedBy="products")
+     * @ORM\ManyToOne(targetEntity="App\Entity\characteristic", inversedBy="products", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $characteristic;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="products")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="products", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $categorie;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Order", mappedBy="product")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Order", mappedBy="product", cascade={"persist"})
      */
     private $orders;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Cart", mappedBy="product")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Cart", mappedBy="product", cascade={"persist"})
      */
     private $carts;
 

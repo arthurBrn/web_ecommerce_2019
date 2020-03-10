@@ -2,15 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/ProductsFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/OrderFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/ProductFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/SubCategorieFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/SubCategoriesFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/SubCategoriesFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Categorie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/Entity/SubCategorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/SubCategorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200301172302.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305085340.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305090320.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305090810.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305092621.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305092826.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200306153417.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307101214.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307101903.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307102321.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307102751.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307102929.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103038.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103240.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103551.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103718.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103845.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307150028.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200309215148.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200309230746.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/SubCategorieFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/aria_log.00000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/aria_log_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart_product.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart_product.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart_product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart_product.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/categorie.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/categorie.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/categorie.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/categorie.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/order.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/order.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/order.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/order.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/order_product.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/order_product.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/order_product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/order_product.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/product.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/product.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/product.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/user.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/user.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/column_stats.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/column_stats.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/columns_priv.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/columns_priv.MYI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/columns_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/columns_priv.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/db.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/db.MYI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/db.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/db.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/event.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/event.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/func.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/func.MYI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/func.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/func.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/help_category.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/help_category.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/help_topic.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/help_topic.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/host.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/host.MYI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/host.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/host.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/innodb_index_stats.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/innodb_index_stats.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/innodb_table_stats.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/innodb_table_stats.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/plugin.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/plugin.MYI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/plugin.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/plugin.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/proc.MYD" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/proc.MYD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/proc.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/proc.MYI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/proc.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/proc.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/procs_priv.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/procs_priv.MYI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/procs_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/procs_priv.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/proxies_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/proxies_priv.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/servers.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/servers.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/slow_log.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/slow_log.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/tables_priv.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/tables_priv.MYI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/tables_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/tables_priv.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/user.MYI" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/user.MYI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/mysql/user.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/mysql/user.frm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +137,8 @@
       <workItem from="1583774773407" duration="1612000" />
       <workItem from="1583785527566" duration="5131000" />
       <workItem from="1583791358653" duration="1491000" />
-      <workItem from="1583793004603" duration="2543000" />
+      <workItem from="1583793004603" duration="2824000" />
+      <workItem from="1583874535189" duration="6024000" />
     </task>
     <servers />
   </component>
@@ -79,17 +154,17 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="631" y="362" width="648" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.34.1920.1046@0.34.1920.1046" timestamp="1583791577596" />
-    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583793064692">
+    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583881628451">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1583793064692" />
+    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1583881628451" />
     <state x="624" y="256" key="run.anything.popup" timestamp="1583786725660">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="624" y="256" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583786725660" />
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583795226226">
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583881251375">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583795226226" />
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583881251375" />
   </component>
 </project>

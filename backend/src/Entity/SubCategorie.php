@@ -13,6 +13,7 @@ class SubCategorie
 {
     /**
      * @ORM\Id()
+     * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      */
     private $id;
@@ -23,7 +24,7 @@ class SubCategorie
     private $name;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="subCategorie")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="subCategorie", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $categorie;
