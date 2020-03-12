@@ -62,7 +62,6 @@ class Product
     public function __construct()
     {
         $this->orders = new ArrayCollection();
-        $this->carts = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -153,34 +152,6 @@ class Product
         if ($this->orders->contains($order)) {
             $this->orders->removeElement($order);
             $order->removeProduct($this);
-        }
-
-        return $this;
-    }
-
-    /**
-     * @return Collection|Cart[]
-     */
-    public function getCarts(): Collection
-    {
-        return $this->carts;
-    }
-
-    public function addCart(Cart $cart): self
-    {
-        if (!$this->carts->contains($cart)) {
-            $this->carts[] = $cart;
-            $cart->addProduct($this);
-        }
-
-        return $this;
-    }
-
-    public function removeCart(Cart $cart): self
-    {
-        if ($this->carts->contains($cart)) {
-            $this->carts->removeElement($cart);
-            $cart->removeProduct($this);
         }
 
         return $this;

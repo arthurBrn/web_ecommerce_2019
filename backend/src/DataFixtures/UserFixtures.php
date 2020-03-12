@@ -2,17 +2,7 @@
 
 namespace App\DataFixtures;
 
-use App\Entity\Categorie;
-use App\Entity\Characteristic;
-use App\Entity\Product;
 use App\Entity\User;
-use App\Repository\CartRepository;
-use App\Repository\OrderRepository;
-use Doctrine\Bundle\FixturesBundle\Fixture;
-use Doctrine\Common\Persistence\ObjectManager;
-use Doctrine\ORM\Mapping as ORM;
-use Faker\Factory;
-
 
 class UserFixtures extends AbstractFixtures
 {
@@ -34,7 +24,7 @@ class UserFixtures extends AbstractFixtures
                 ->setPassword($this->faker->generateFaker()->password)
                 ->setDeliveryAddress($this->faker->generateFaker()->address)
                 ->setOrders(null)
-                ->setCart(null);
+                ;
             $manager->persist($usr);
         }
         $manager->flush();

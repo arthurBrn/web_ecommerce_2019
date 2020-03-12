@@ -201,18 +201,6 @@ class User implements UserInterface
         return $this;
     }
 
-    public function getCart(): ?Cart
-    {
-        return $this->cart;
-    }
-
-    public function setCart(?Cart $cart): self
-    {
-        $this->cart = $cart;
-
-        return $this;
-    }
-
     public function getOrders(): ?Order
     {
         return $this->orders;
