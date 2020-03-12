@@ -24,7 +24,7 @@ class SubCategorie
     private $name;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="subCategorie")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="subCategorie", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $categorie;
@@ -32,6 +32,11 @@ class SubCategorie
     public function getId(): ?int
     {
         return $this->id;
+    }
+
+    public function setId(int $value)
+    {
+        $this->id = $value;
     }
 
     public function getName(): ?string

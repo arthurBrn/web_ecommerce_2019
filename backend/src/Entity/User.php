@@ -59,12 +59,6 @@ class User implements UserInterface
     private $deliveryAddress;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Cart", inversedBy="users")
-     * @ORM\JoinColumn(nullable=false)
-     */
-    private $cart;
-
-    /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Order", inversedBy="users")
      */
     private $orders;
