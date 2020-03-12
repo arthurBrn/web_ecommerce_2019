@@ -6,6 +6,8 @@ use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use phpDocumentor\Reflection\Types\Integer;
+use phpDocumentor\Reflection\Types\Void_;
 
 /**
  * @ApiResource(
@@ -41,26 +43,21 @@ class Product
     private $listingPicture;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\characteristic", inversedBy="products")
+     * @ORM\ManyToOne(targetEntity="App\Entity\characteristic", inversedBy="products", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $characteristic;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="products")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="products", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $categorie;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Order", mappedBy="product")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Order", mappedBy="product", cascade={"persist"})
      */
     private $orders;
-
-    /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Cart", mappedBy="product")
-     */
-    private $carts;
 
     public function __construct()
     {
@@ -97,12 +94,12 @@ class Product
         return $this;
     }
 
-    public function getListing�Picture(): ?string
+    public function getListingPicture(): ?string
     {
         return $this->listingPicture;
     }
 
-    public function setListing�Picture(?string $listingPicture): self
+    public function setListingPicture(?string $listingPicture): self
     {
         $this->listingPicture = $listingPicture;
 
