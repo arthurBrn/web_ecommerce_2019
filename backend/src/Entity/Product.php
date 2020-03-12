@@ -43,7 +43,7 @@ class Product
     private $listingPicture;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\characteristic", inversedBy="products", cascade={"persist"})
+     * @ORM\ManyToOne(targetEntity="App\Entity\Characteristic", inversedBy="products", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $characteristic;
@@ -105,12 +105,12 @@ class Product
         return $this;
     }
 
-    public function getCharacteristic(): ?characteristic
+    public function getCharacteristic(): ?Characteristic
     {
         return $this->characteristic;
     }
 
-    public function setCharacteristic(?characteristic $characteristic): self
+    public function setCharacteristic(?Characteristic $characteristic): self
     {
         $this->characteristic = $characteristic;
 

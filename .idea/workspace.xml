@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/UserFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/OrdersFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Repository/CartRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200312215542.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200312221031.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <workItem from="1583793004603" duration="2824000" />
       <workItem from="1583874535189" duration="6024000" />
       <workItem from="1583950785468" duration="2865000" />
-      <workItem from="1584045783691" duration="5788000" />
+      <workItem from="1584045783691" duration="7088000" />
     </task>
     <servers />
   </component>
