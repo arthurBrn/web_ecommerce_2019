@@ -59,20 +59,10 @@ class Product
      */
     private $orders;
 
-    /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Cart", mappedBy="product", cascade={"persist"})
-     */
-    private $carts;
-
     public function __construct()
     {
         $this->orders = new ArrayCollection();
         $this->carts = new ArrayCollection();
-    }
-
-    public function setId(int $someValue)
-    {
-        $this->id = $someValue;
     }
 
     public function getId(): ?int

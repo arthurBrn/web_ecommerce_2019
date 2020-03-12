@@ -2,54 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/ProductsFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/CharacteristicFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/SubCategoriesFixtures.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Categorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/DataFixtures/AbstractFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/DataFixtures/AbstractFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Cart.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/SubCategorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/SubCategorie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200301172302.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305085340.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305090320.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305090810.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305092621.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200305092826.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200306153417.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307101214.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307101903.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307102321.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307102751.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307102929.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103038.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103240.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103551.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103718.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307103845.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200307150028.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200309215148.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200309230746.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/SubCategorieFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/OrderFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/ProductFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/SubCategoriesFixtures.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/aria_log.00000001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/aria_log_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart_product.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart_product.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/cart_product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/cart_product.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/categorie.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/categorie.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/categorie.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/categorie.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/order.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/order.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/order.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/order.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/order_product.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/order_product.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/order_product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/order_product.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/product.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/product.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/product.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/product.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/sub_categorie.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/user.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/user.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ib_logfile0" afterDir="false" />
@@ -116,6 +83,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -139,6 +107,8 @@
       <workItem from="1583791358653" duration="1491000" />
       <workItem from="1583793004603" duration="2824000" />
       <workItem from="1583874535189" duration="6024000" />
+      <workItem from="1583950785468" duration="2865000" />
+      <workItem from="1584045783691" duration="4332000" />
     </task>
     <servers />
   </component>
@@ -154,17 +124,21 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="631" y="362" width="648" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.34.1920.1046@0.34.1920.1046" timestamp="1583791577596" />
-    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583881628451">
+    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583955081038">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1583881628451" />
-    <state x="624" y="256" key="run.anything.popup" timestamp="1583786725660">
+    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1583955081038" />
+    <state x="449" y="192" key="SettingsEditor" timestamp="1583956630680">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="624" y="256" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583786725660" />
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583881251375">
+    <state x="449" y="192" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1583956630680" />
+    <state x="624" y="256" key="run.anything.popup" timestamp="1584048322687">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583881251375" />
+    <state x="624" y="256" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1584048322687" />
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1584050120465">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1584050120465" />
   </component>
 </project>

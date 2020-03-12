@@ -8,7 +8,7 @@ use Doctrine\Bundle\FixturesBundle\Fixture;
 use App\Service\FakerService;
 
 
-Abstract class AbstractFixtures extends Fixture
+Abstract class AbstractFixtures extends Fixture 
 {
     public $faker;
 
