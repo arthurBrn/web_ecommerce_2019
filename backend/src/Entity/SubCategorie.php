@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use Symfony\Component\Serializer\Annotation\Groups;
 use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -15,10 +16,12 @@ class SubCategorie
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
+     * @Groups({"categorie.read"})
      */
     private $id;
 
     /**
+     * @Groups({"categorie.read"})
      * @ORM\Column(type="string", length=255)
      */
     private $name;

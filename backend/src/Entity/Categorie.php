@@ -2,13 +2,21 @@
 
 namespace App\Entity;
 
+use Symfony\Component\Serializer\Annotation\Groups;
+use ApiPlatform\Core\Annotation\ApiSubresource;
 use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
+
 /**
- * @ApiResource()
+ * @ApiResource(
+ *     attributes={
+ *          "normalizationContext"={"groups"={"categorie.read", "categorie.list"}},
+ *          "denormalizationContext"={"groups"={"categorie.write"}}
+ *     }
+ * )
  * @ORM\Entity(repositoryClass="App\Repository\CategorieRepository")
  */
 class Categorie
@@ -17,11 +25,13 @@ class Categorie
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
+     * @Groups({"categorie.read","product.read"})
      */
     private $id;
 
     /**
      * @ORM\Column(type="text")
+     * @Groups({"categorie.read", "product.read"})
      */
     private $name;
 
@@ -32,6 +42,7 @@ class Categorie
 
     /**
      * @ORM\OneToMany(targetEntity="App\Entity\SubCategorie", mappedBy="categorie")
+     * @ApiSubresource()
      */
     private $subCategorie;
 

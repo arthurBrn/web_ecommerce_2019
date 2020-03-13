@@ -22,7 +22,7 @@
 | [DEVOPS](docker-compose.yml)  | Lance le container en tache de fond                                           |
  
 ### MARIADB
-![MCD](doc/ECOM_MCDV1.png)
+![MCD](doc/MCD_UPDATED.png)
 
 
 ### SYMFONY
