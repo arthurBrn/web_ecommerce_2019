@@ -3,11 +3,13 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
+use ApiPlatform\Core\Annotation\ApiSubresource;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use phpDocumentor\Reflection\Types\Integer;
 use phpDocumentor\Reflection\Types\Void_;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ApiResource(
@@ -29,28 +31,33 @@ class Product
 
     /**
      * @ORM\Column(type="text", nullable=true)
+     * @Groups({"product.read"})
      */
     private $name;
 
     /**
      * @ORM\Column(type="text", nullable=true)
+     * @Groups({"product.read"})
      */
     private $description;
 
     /**
      * @ORM\Column(type="text", nullable=true)
+     * @Groups({"product.read"})
      */
     private $listingPicture;
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Characteristic", inversedBy="products", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
+     * @ApiSubresource()
      */
     private $characteristic;
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="products", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
+     * @ApiSubresource()
      */
     private $categorie;
 
