@@ -14,7 +14,7 @@ export class AppComponent {
   
   constructor(public httpClient: HttpClient) {}
 
-  var    = sendGetRequest() {
+    sendGetRequest() {
     var list = [];
     this.httpClient
       .get("http://localhost:8000/api/products")
