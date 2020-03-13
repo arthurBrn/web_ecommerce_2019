@@ -25,7 +25,7 @@ class Categorie
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
-     * @Groups({"product.read"})
+     * @Groups({"categorie.read","product.read"})
      */
     private $id;
 
