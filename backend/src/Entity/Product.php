@@ -6,6 +6,8 @@ use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use phpDocumentor\Reflection\Types\Integer;
+use phpDocumentor\Reflection\Types\Void_;
 
 /**
  * @ApiResource(
@@ -41,31 +43,25 @@ class Product
     private $listingPicture;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Characteristic", inversedBy="products")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Characteristic", inversedBy="products", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $characteristic;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="products")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="products", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $categorie;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Order", mappedBy="product")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Order", mappedBy="product", cascade={"persist"})
      */
     private $orders;
-
-    /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Cart", mappedBy="product")
-     */
-    private $carts;
 
     public function __construct()
     {
         $this->orders = new ArrayCollection();
-        $this->carts = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -97,24 +93,24 @@ class Product
         return $this;
     }
 
-    public function getListing�Picture(): ?string
+    public function getListingPicture(): ?string
     {
         return $this->listingPicture;
     }
 
-    public function setListing�Picture(?string $listingPicture): self
+    public function setListingPicture(?string $listingPicture): self
     {
         $this->listingPicture = $listingPicture;
 
         return $this;
     }
 
-    public function getCharacteristic(): ?characteristic
+    public function getCharacteristic(): ?Characteristic
     {
         return $this->characteristic;
     }
 
-    public function setCharacteristic(?characteristic $characteristic): self
+    public function setCharacteristic(?Characteristic $characteristic): self
     {
         $this->characteristic = $characteristic;
 
@@ -156,34 +152,6 @@ class Product
         if ($this->orders->contains($order)) {
             $this->orders->removeElement($order);
             $order->removeProduct($this);
-        }
-
-        return $this;
-    }
-
-    /**
-     * @return Collection|Cart[]
-     */
-    public function getCarts(): Collection
-    {
-        return $this->carts;
-    }
-
-    public function addCart(Cart $cart): self
-    {
-        if (!$this->carts->contains($cart)) {
-            $this->carts[] = $cart;
-            $cart->addProduct($this);
-        }
-
-        return $this;
-    }
-
-    public function removeCart(Cart $cart): self
-    {
-        if ($this->carts->contains($cart)) {
-            $this->carts->removeElement($cart);
-            $cart->removeProduct($this);
         }
 
         return $this;

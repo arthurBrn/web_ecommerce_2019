@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="" />
+    <list default="true" id="0f9c47c2-ab93-4809-be26-cb62936f7a49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Entity/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/Entity/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200312215542.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/Migrations/Version20200312221031.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/characteristic.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/migration_versions.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" beforeDir="false" afterPath="$PROJECT_DIR$/../data/data/ecommerce_db/user.frm" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +41,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,7 +58,15 @@
       <workItem from="1583397370820" duration="3950000" />
       <workItem from="1583403986105" duration="1080000" />
       <workItem from="1583484083381" duration="985000" />
-      <workItem from="1583575331209" duration="2172000" />
+      <workItem from="1583575331209" duration="6645000" />
+      <workItem from="1583591983345" duration="3306000" />
+      <workItem from="1583774773407" duration="1612000" />
+      <workItem from="1583785527566" duration="5131000" />
+      <workItem from="1583791358653" duration="1491000" />
+      <workItem from="1583793004603" duration="2824000" />
+      <workItem from="1583874535189" duration="6024000" />
+      <workItem from="1583950785468" duration="2865000" />
+      <workItem from="1584045783691" duration="7088000" />
     </task>
     <servers />
   </component>
@@ -56,13 +74,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="624" y="256" key="run.anything.popup" timestamp="1583401977243">
+    <state x="555" y="218" width="800" height="727" key="#Intentions" timestamp="1583579756620">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="624" y="256" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583401977243" />
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1583575853924">
+    <state x="555" y="218" width="800" height="727" key="#Intentions/0.34.1920.1046@0.34.1920.1046" timestamp="1583579756620" />
+    <state x="631" y="362" width="648" height="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583791577596">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
-    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1583575853924" />
+    <state x="631" y="362" width="648" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.34.1920.1046@0.34.1920.1046" timestamp="1583791577596" />
+    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583955081038">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="674" y="34" width="552" height="1044" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1583955081038" />
+    <state x="449" y="192" key="SettingsEditor" timestamp="1583956630680">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="449" y="192" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1583956630680" />
+    <state x="605" y="268" width="709" height="578" key="find.popup" timestamp="1584051676383">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="605" y="268" width="709" height="578" key="find.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1584051676383" />
+    <state x="624" y="256" key="run.anything.popup" timestamp="1584048322687">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="624" y="256" key="run.anything.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1584048322687" />
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1584051679930">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1584051679930" />
   </component>
 </project>

@@ -10,7 +10,7 @@ use Doctrine\Migrations\AbstractMigration;
 /**
  * Auto-generated Migration: Please modify to your needs!
  */
-final class Version20200305085340 extends AbstractMigration
+final class Version20200312223323 extends AbstractMigration
 {
     public function getDescription() : string
     {
@@ -22,7 +22,8 @@ final class Version20200305085340 extends AbstractMigration
         // this up() migration is auto-generated, please modify it to your needs
         $this->abortIf($this->connection->getDatabasePlatform()->getName() !== 'mysql', 'Migration can only be executed safely on \'mysql\'.');
 
-        $this->addSql('CREATE TABLE categorie (id INT AUTO_INCREMENT NOT NULL, name LONGTEXT NOT NULL, PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB');
+        $this->addSql('ALTER TABLE user CHANGE orders_id orders_id INT DEFAULT NULL, CHANGE roles roles JSON NOT NULL');
+        $this->addSql('ALTER TABLE characteristic CHANGE color color VARCHAR(255) DEFAULT NULL');
     }
 
     public function down(Schema $schema) : void
@@ -30,7 +31,7 @@ final class Version20200305085340 extends AbstractMigration
         // this down() migration is auto-generated, please modify it to your needs
         $this->abortIf($this->connection->getDatabasePlatform()->getName() !== 'mysql', 'Migration can only be executed safely on \'mysql\'.');
 
-        $this->addSql('DROP TABLE product');
-        $this->addSql('DROP TABLE categorie');
+        $this->addSql('ALTER TABLE characteristic CHANGE color color VARCHAR(255) CHARACTER SET utf8mb4 DEFAULT \'NULL\' COLLATE `utf8mb4_unicode_ci`');
+        $this->addSql('ALTER TABLE user CHANGE orders_id orders_id INT DEFAULT NULL, CHANGE roles roles LONGTEXT CHARACTER SET utf8mb4 NOT NULL COLLATE `utf8mb4_bin`');
     }
 }
