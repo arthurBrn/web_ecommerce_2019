@@ -41,7 +41,7 @@ class Product
     private $listingPicture;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\characteristic", inversedBy="products")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Characteristic", inversedBy="products")
      * @ORM\JoinColumn(nullable=false)
      */
     private $characteristic;
