@@ -3,7 +3,7 @@
 -->
 <div class="card">
   <div class="view">
-    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="card-img-top" alt="photo">
+    <img src="{{ product.picture }}" class="card-img-top" alt="photo">
     <a href="#">
       <div class="mask rgba-white-slight"></div>
     </a>
@@ -11,9 +11,9 @@
   <div class="card-body">
     <h4 class="card-title" *ngIf="product.name">{{ product.name }}</h4>
       <p class="card-text" *ngIf="product.description">{{ product.description }}</p>
-      <button class="btn btn-primary" (click)="">
+      <!--<button class="btn btn-primary" (click)="">
         Details
-      </button>
+      </button>-->
   </div>
 </div>
 <!-- </div>

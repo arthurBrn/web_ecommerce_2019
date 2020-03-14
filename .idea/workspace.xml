@@ -111,7 +111,7 @@
       <workItem from="1584124989843" duration="6433000" />
       <workItem from="1584184846888" duration="955000" />
       <workItem from="1584185842437" duration="2381000" />
-      <workItem from="1584199320300" duration="7075000" />
+      <workItem from="1584199320300" duration="8419000" />
     </task>
     <servers />
   </component>
@@ -151,5 +151,17 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="623" y="264" width="672" height="678" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1584188088784" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../front-end/src/app/product-detail/product-detail.component.ts</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
