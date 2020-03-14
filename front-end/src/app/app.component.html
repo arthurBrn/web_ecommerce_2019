@@ -5,7 +5,21 @@
 </head>
 
 <body>
-  <app-body></app-body>
+<!--
+<p *ngIf="listProduct">
+  LIST PRODUCT
+</p>
+<p *ngIf="listProduct[0].name">
+  NAME
+</p>
+<p>
+  LENGTH : {{ listProduct.length }}
+</p>
+<p *ngFor="let lp of listProduct">
+  THE NAME :
+  {{ lp.name }}
+</p> -->
+  <app-body [prodList]="listProduct"></app-body>
 </body>
 
 <p>{{ title }}</p>

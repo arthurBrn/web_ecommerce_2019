@@ -9,8 +9,15 @@
     </div>
   </div>
   <div class="col-md-9">
-    <div class="jumbotron">
-      <app-card-product></app-card-product>
+    <div class="row">
+      <div class="jumbotron">
+        <div class="col-md-4">
+          <div *ngFor="let lp of prodList">
+            <app-card-product [product]="lp">
+            </app-card-product>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
