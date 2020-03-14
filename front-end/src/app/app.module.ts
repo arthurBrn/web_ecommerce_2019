@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeadComponent } from './head/head.component';
 import { BodyComponent } from './body/body.component';
 import { HeaderComponent } from './header/header.component';
+import { CardProductComponent } from './card-product/card-product.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HeaderComponent } from './header/header.component';
     FooterComponent,
     HeadComponent,
     BodyComponent,
-    HeaderComponent
+    HeaderComponent,
+    CardProductComponent
   ],
   imports: [
     BrowserModule,

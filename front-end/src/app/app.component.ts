@@ -10,8 +10,8 @@ import { HttpClient } from "@angular/common/http";
 export class AppComponent {
 
   title = "my-dream-app";
-  
-  
+
+
   constructor(public httpClient: HttpClient) {}
 
     sendGetRequest() {
@@ -30,4 +30,6 @@ export class AppComponent {
       });
       return list;
   }
+
+  var = this.sendGetRequest();
 }
