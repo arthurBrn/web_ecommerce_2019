@@ -10,13 +10,14 @@ use Doctrine\ORM\Mapping as ORM;
 use phpDocumentor\Reflection\Types\Integer;
 use phpDocumentor\Reflection\Types\Void_;
 use Symfony\Component\Serializer\Annotation\Groups;
+use App\api\Controller\ProductController;
 
 /**
  * @ApiResource(
  *      attributes={
  *          "normalization_context"={"groups"={"product.read"}},
  *          "denormalization_context"={"groups"={"product.write"}}
- *     },
+ *     }
  * )
  * @ORM\Entity(repositoryClass="App\Repository\ProductRepository")
  */
@@ -26,13 +27,13 @@ class Product
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
-     *  @Groups({"product.read"})
+     *  @Groups({"product.read", "categorie.read"})
      */
     private $id;
 
     /**
      * @ORM\Column(type="text", nullable=true)
-     * @Groups({"product.read"})
+     * @Groups({"product.read", "categorie.read"})
      */
     private $name;
 

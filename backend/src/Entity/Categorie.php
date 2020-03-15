@@ -37,6 +37,7 @@ class Categorie
 
     /**
      * @ORM\OneToMany(targetEntity="App\Entity\Product", mappedBy="categorie")
+     * @ApiSubresource()
      */
     private $products;
 
