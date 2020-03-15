@@ -5,12 +5,12 @@
 <div class="row">
   <div class="col-md-3">
     <div class="jumbotron">
-      <p>SIDEBAR</p>
+      <app-side-bar (categories)="logList($event)"></app-side-bar>
     </div>
   </div>
   <div class="col-md-9">
     <div class="jumbotron">
-      <p>ALL PRODUCT</p>
+      <app-display-products [categorie]="categorie"></app-display-products>
     </div>
   </div>
 </div>

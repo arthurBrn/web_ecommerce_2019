@@ -11,7 +11,6 @@ export class AppComponent {
 
   title = "my-dream-app";
   
-  
   constructor(public httpClient: HttpClient) {}
 
     sendGetRequest() {
@@ -21,7 +20,7 @@ export class AppComponent {
       .subscribe(res => {
         res['hydra:member'].forEach(line => {
               list.push({
-                  id: line.id,
+                  id: line.id,  
                   name: line.name,
                   description: line.description,
                   picture: line.listingPicture
