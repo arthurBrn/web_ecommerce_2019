@@ -1,9 +1,10 @@
 <div class="container">
   <h1>Filtres</h1>
-  <form [formGroup]="oppoSuitsForm">
+  <form [formGroup]="categoriesForm">
     <select formControlName="name" (change)="onChange($event.target.value)">
-      <option>Toutes les catégories</option>
-      <option *ngFor="let suit of oppoSuits">{{ suit }}</option>
+      <option style="display:none" value="">Toutes les categories</option>
+      <option value="all">Toutes les categories</option>
+      <option *ngFor="let categorie of listCategories" value="{{ categorie.id }}">{{ categorie.name }}</option>
     </select>
   </form>
 </div>

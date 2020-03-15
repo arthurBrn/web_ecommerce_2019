@@ -1,1 +1,6 @@
 <p>{{ categorie }}</p>
+<ul>
+    <li *ngFor="let product of products">
+        <p>{{ product.name }}</p>
+    </li>
+</ul>

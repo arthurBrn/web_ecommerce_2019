@@ -8,12 +8,12 @@ import { HttpClient } from "@angular/common/http";
   styleUrls: ["./side-bar.component.css"]
 })
 export class SideBarComponent implements OnInit {
-  oppoSuits: any = [];
+  listCategories: any = [];
   @Output() categories = new EventEmitter<string>();
 
   constructor(public fb: FormBuilder, public httpClient: HttpClient) {}
 
-  oppoSuitsForm = this.fb.group({
+  categoriesForm = this.fb.group({
     name: [""]
   });
 
@@ -24,13 +24,15 @@ export class SideBarComponent implements OnInit {
       .get("http://localhost:8000/api/categories")
       .subscribe(res => {
         res["hydra:member"].forEach(line => {
-          this.oppoSuits.push(line.name);
+          this.listCategories.push({
+            id: line.id,
+            name: line.name
+          });
         });
       });
   }
 
   onChange(deviceValue) {
-    // console.log(deviceValue);
     this.categories.emit(deviceValue);
   }
 }
